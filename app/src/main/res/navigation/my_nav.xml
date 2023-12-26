@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home2">
+
+    <activity
+        android:id="@+id/home2"
+        android:name="com.example.projectescavatorrent.home"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+    <activity
+        android:id="@+id/pilihan"
+        android:name="com.example.projectescavatorrent.pilihan"
+        android:label="activity_pilihan"
+        tools:layout="@layout/activity_pilihan" />
+    <activity
+        android:id="@+id/pilihan2"
+        android:name="com.example.projectescavatorrent.pilihan2"
+        android:label="activity_pilihan2"
+        tools:layout="@layout/activity_pilihan2" />
+    <activity
+        android:id="@+id/pilihan3"
+        android:name="com.example.projectescavatorrent.pilihan3"
+        android:label="activity_pilihan3"
+        tools:layout="@layout/activity_pilihan3" />
+    <activity
+        android:id="@+id/pilihan4"
+        android:name="com.example.projectescavatorrent.pilihan4"
+        android:label="activity_pilihan4"
+        tools:layout="@layout/activity_pilihan4" />
+</navigation>

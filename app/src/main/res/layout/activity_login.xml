@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".login">
+
+    <ImageView
+        android:layout_width="311dp"
+        android:layout_height="311dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="30dp"
+        android:id="@+id/ly_l">
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:paddingLeft="40dp"
+            android:layout_below="@id/logo3"
+            android:hint="USERNAME"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/postnobills"
+            android:background="@drawable/untukshape"
+            android:id="@+id/kol_usernamelogin"/>
+
+        <EditText
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:paddingLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@id/kol_usernamelogin"
+            android:hint="PASSWORD"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/postnobills"
+            android:background="@drawable/untukshape"
+            android:id="@+id/kol_passwordlogin"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ly_l"
+        android:text="LOG IN"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:width="150dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/postnobills"
+        android:textSize="25dp"
+        android:id="@+id/btn_login"/>
+
+</RelativeLayout>

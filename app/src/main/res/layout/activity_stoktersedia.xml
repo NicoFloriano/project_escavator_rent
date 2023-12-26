@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".stoktersedia">
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="48dp"
+       android:text="Tersedia"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="3dp"
+       android:backgroundTint="@color/colorPrimary"
+       android:textColor="@color/green"
+       android:textSize="13sp"
+       android:fontFamily="@font/ptsheriff"
+       android:id="@+id/btn_tersedia2"/>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="48dp"
+       android:text="Berjalan"
+       android:layout_marginLeft="280dp"
+       android:layout_marginTop="3dp"
+       android:backgroundTint="@color/yellow"
+       android:textColor="@color/red"
+       android:textSize="13sp"
+       android:fontFamily="@font/ptsheriff"
+       android:id="@+id/btn_berjalan2"/>
+
+   <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/kuningmenuhome"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/btn_tersedia2"
+        android:id="@+id/kuningmenuhomee"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/kuningmenuhome"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/kuningmenuhomee"
+        android:id="@+id/kuningmenuhomee2"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/kuningmenuhome"
+        android:layout_below="@id/kuningmenuhomee2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/kuningmenuhomee3"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/hitachi"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="60dp"
+        android:id="@+id/hitachi"/>
+
+ <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/komatsu"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/hitachi"
+        android:id="@+id/komatsu"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/volvo"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/komatsu"
+        android:id="@+id/volvo"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:text="HITACHI ZX200-5G"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="65dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/ptsheriff"
+        android:textColor="@color/white"
+        android:id="@+id/texthitachi"/>
+
+   <TextView
+       android:layout_width="130dp"
+       android:layout_height="50dp"
+       android:text="KOMATSU PC200-10M0 CE"
+       android:layout_marginLeft="65dp"
+       android:layout_marginTop="25dp"
+       android:layout_below="@+id/btn_rentall1"
+       android:textSize="15sp"
+       android:fontFamily="@font/ptsheriff"
+       android:textColor="@color/white"
+       android:id="@+id/textkomatsu"/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="VOLVO EC210D"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="25dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/btn_rentall2"
+        android:fontFamily="@font/ptsheriff"
+        android:textColor="@color/white"
+        android:id="@+id/textvolvo" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:text="RENTAL"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="120dp"
+        android:textSize="12sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ptsheriff"
+        android:id="@+id/btn_rentall1" />
+
+    <Button
+         android:layout_width="110dp"
+         android:layout_height="48dp"
+         android:text="RENTAL"
+         android:layout_marginLeft="65dp"
+         android:layout_marginTop="2dp"
+         android:textSize="12sp"
+         android:backgroundTint="@color/colorPrimary"
+         android:layout_below="@+id/text_tersedia2"
+         android:textColor="@color/white"
+         android:fontFamily="@font/ptsheriff"
+         android:id="@+id/btn_rentall2"/>
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:text="RENTAL"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="2dp"
+        android:textSize="12sp"
+        android:layout_below="@id/text_tersedia3"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ptsheriff"
+        android:id="@+id/btn_rentall3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status : tersedia"
+        android:layout_marginLeft="65dp"
+        android:layout_below="@+id/texthitachi"
+        android:layout_marginTop="-12dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:id="@+id/text_tersedia1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status : tersedia"
+        android:layout_marginLeft="65dp"
+        android:layout_below="@id/textkomatsu"
+        android:layout_marginTop="-12dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:id="@+id/text_tersedia2"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status : tersedia"
+        android:layout_marginLeft="65dp"
+        android:layout_below="@+id/textvolvo"
+        android:layout_marginTop="-12dp"
+        android:textColor="@color/green"
+        android:textStyle="italic"
+        android:id="@+id/text_tersedia3"/>
+</RelativeLayout>

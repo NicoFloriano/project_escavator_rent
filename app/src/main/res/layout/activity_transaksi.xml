@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".transaksi">
+
+    <ImageView
+        android:id="@+id/kuningatashome"
+        android:layout_width="900dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="-20dp"
+        android:src="@drawable/kuningatashome" />
+
+    <TextView
+        android:id="@+id/transaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/postnobills"
+        android:text="TRANSAKSI"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-90dp"
+        android:layout_below="@id/kuningatashome"
+        android:src="@drawable/kuningtengah"
+        android:id="@+id/kuningtengah"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:paddingLeft="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_below="@id/transaksi"
+        android:hint="TANGGAL"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/postnobills"
+        android:background="@drawable/untukshape"
+        android:id="@+id/kol_tanggal"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/kol_tanggal"
+        android:hint="DURASI"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/postnobills"
+        android:background="@drawable/untukshape"
+        android:id="@+id/kol_durasi"/>
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:paddingLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/kol_durasi"
+        android:hint="TOTAL"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/postnobills"
+        android:background="@drawable/untukshape"
+        android:id="@+id/kol_total"/>
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kol_total"
+        android:text="FINISH"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:width="150dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ptsheriff"
+        android:textSize="20dp"
+        android:id="@+id/btn_finish"/>
+
+
+</RelativeLayout>

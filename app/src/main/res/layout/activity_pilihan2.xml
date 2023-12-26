@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    tools:context=".pilihan2">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/kuningtengah"
+        android:id="@+id/kuningtengah"/>
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/cat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:id="@+id/cat2"/>
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/garis"
+        android:layout_marginTop="220dp"
+        android:id="@+id/garis1"/>
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/garis"
+        android:layout_marginTop="-80dp"
+        android:layout_below="@id/garis1"
+        android:id="@+id/garis2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spesifikasi"
+        android:layout_marginLeft="45dp"
+        android:layout_below="@id/garis2"
+        android:layout_marginTop="-95dp"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ptsheriff"
+        android:id="@+id/spesifikasi"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hitambawah"
+        android:layout_below="@id/spesifikasi"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/hitambawah1"/>
+
+    <TextView
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:text="OUTPUT MESIN     (157 hp)"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/spesifikasi"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ptsheriff"
+        android:textSize="12sp"
+        android:id="@+id/spekcaterpillar1"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hitambawah"
+        android:layout_below="@id/spesifikasi"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/hitambawah2"/>
+
+    <TextView
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:text="KAPASITAS BUCKET   (1,0 m3)"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/spesifikasi"
+        android:textColor="@color/white"
+        android:fontFamily="@font/ptsheriff"
+        android:textSize="12sp"
+        android:id="@+id/spekcaterpillar2"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hitamatas"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/hitamatas"/>
+
+    <TextView
+        android:id="@+id/berjalan_atas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="283dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/ptsheriff"
+        android:text="BERJALAN"
+        android:textColor="@color/red"
+        android:textSize="15sp" />
+
+</RelativeLayout>
